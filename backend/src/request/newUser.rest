@@ -1,0 +1,10 @@
+POST http://localhost:3000/api/users/create
+Content-Type: application/json
+
+{
+    "name": "Juan2",
+    "email": "juan2@adminclinica.com",
+    "password": "1234568",
+    "role": "admin",
+    "color": "#0f172a"
+}
